@@ -28,9 +28,9 @@
 
 }
 
-img {
+.banner-image {
     margin-right: 38px;
-    margin-left: 350px;
+    margin-left: 978px;
 }
 
 /* navigation and header style */
@@ -113,7 +113,7 @@ main {
 
 .about-info-container {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
 }
 
 .about .info-title {
@@ -127,4 +127,54 @@ main {
     font-size: 20px;
     color: #474747;
 
+}
+
+/* what I do styles */
+
+.section-title {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.what-i-do {
+
+    border-radius: 10px;
+
+}
+
+.what-i-do-description {
+    color: #757575;
+    margin-top: 30px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skil-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-top: 20px;
+}
+
+/* Resume secton */
+.resume-content-container {
+    display: flex;
+    gap: 24px;
 }
